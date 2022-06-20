@@ -4,9 +4,6 @@ Calling Jadoo from koi mil gaya . Recreated the scene from bollywood movie. Resp
 ## Version 
 v0.1
 
-## Not in production?
-ofc i don't have time and this all was made in 3hrs or less
-
 # Usage 
 > Go to this Website https://jadoo.gq/.
 >
