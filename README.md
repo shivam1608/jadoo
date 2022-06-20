@@ -15,15 +15,15 @@ v0.1
 )</a>
 
 # Credits
-![Shivam1608](https://github.com/shivam1608)
+[Shivam1608](https://github.com/shivam1608)
 <br />
 IDE/Code Editor Used : [Visual Studio Code](https://code.visualstudio.com/)
 <br />
 JS Library : [JQuery](https://jquery.com/) , [ThreeJS](https://threejs.org/)
 <br />
-Sounds : ![arjunn](https://github.com/arjunnn)
+Sounds : [arjunn](https://github.com/arjunnn)
 <br />
-Image Hosting : ![Imaginary](https://imaginary.tk)
+Image Hosting : [Imaginary](https://imaginary.tk)
 
 
 # Why This?
