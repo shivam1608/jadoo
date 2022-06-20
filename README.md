@@ -4,6 +4,9 @@ Calling Jadoo from koi mil gaya . Recreated the scene from bollywood movie. Resp
 ## Version 
 v0.1
 
+## Not in production?
+ofc i don't have time and this all was made in 3hrs or less
+
 # Usage 
 > Go to this Website https://jadoo.gq/.
 >
@@ -28,6 +31,10 @@ Image Hosting : [Imaginary](https://imaginary.tk)
 
 # Why This?
 I am just a student and learning stuffs. i was bored at home while eveyone was having fun in vaction so... why? idk
+
+
+## Not in production?
+ofc i don't have time and this all was made in 3hrs or less
 
 # Not Stable?
 This might not be stable in android devices but it works in every devices.
