@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Call Jadoo from dusara gola. Tried to recreate jadoo calling machine">
+    <meta name="keywords" content="jadoo,alien,koi mil gaya,bollywood">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <title>Jadoo - Call Jadoo now lmao</title>
+</head>
+<body class="h-min-sceen bg-black font-[VT323]">
+    <div id="mainScreen" class="container m-auto h-screen">
+        <div class="grid grid-cols-2 grid-rows-2 w-full h-[90vh]">
+            <div id="incoming" class="incoming w-full h-full m-auto border-y-4 border-r-4 border-green-500">
+                <!-- Incoming wave append -->
+                <div class="relative">
+                    <h1 class="absolute z-index-2 text-2xl text-lime-500 px-5 py-2">SENDING</h1>
+                </div>
+            </div>
+            <div id="outgoing" class="outgoing  border-y-4 border-l-4 border-green-500">
+                <!-- Outgoing wave append -->
+                <div class="relative">
+                    <h1 class="absolute z-index-2 text-2xl text-lime-500 px-5 py-2">RECEIVING</h1>
+                </div>
+            </div>
+            <div class="rings border-y-4 border-r-4 border-green-500" id="rings">
+                <!-- Rings -->
+            </div>
+            <div class="status  border-y-4 border-l-4 border-green-500" id="status">
+                <div class="relative">
+                    <div class="absolute mx-10 py-5 w-full">
+                        <div class="grid grid-cols-2 grid-rows-4 w-full">
+                            <div class="text-xl text-lime-500 grid grid-cols-3 grid-rows-1 content-center">
+                                <span class="text-end">UPLINK</span>
+                                <span class="text-center">=</span>
+                                <span class="text-start">YES</span>
+                            </div>
+                            <h1 class="z-index-2 text-xl text-lime-500 w-full text-center">B : 066</h1>
+                            
+                            <div class="text-xl text-lime-500 grid grid-cols-3 grid-rows-1 content-center">
+                                <span class="text-end">AXIS.</span>
+                                <span class="text-center">=</span>
+                                <span class="text-start">40</span>
+                            </div>
+                            <h1 class="z-index-2 text-xl text-lime-500 w-full text-center">C : 067</h1>
+
+                            <div class="text-xl text-lime-500 grid grid-cols-3 grid-rows-1 content-center">
+                                <span class="text-end">INC.</span>
+                                <span class="text-center">=</span>
+                                <span class="text-start">48 POS</span>
+                            </div>
+                            <h1 class="z-index-2 text-xl text-lime-500 w-full text-center">D : 068</h1>
+
+                            <div class="text-xl text-lime-500 grid grid-cols-3 grid-rows-1 content-center">
+                                <span class="text-end">DEC</span>
+                                <span class="text-center">=</span>
+                                <span class="text-start">58 NEG</span>
+                            </div>
+                            <h1 class="z-index-2 text-xl text-lime-500 w-full text-center">E : 069</h1>
+                            <h1 class="z-index-2 text-xl text-lime-500 w-full text-center"></h1>
+                            <h1 class="z-index-2 text-xl text-lime-500 w-full text-center">F : 069</h1>
+                        </div>
+                        
+                        <h1 class="z-index-2 text-xl text-lime-500 mt-3">SIGNAL = 80 B</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container border-green-500 p-4 h-[10vh] w-full">
+            <div class="flex w-full">
+                <div class="flex basis-5/6 hidden md:flex">
+                    <h1 class="text-lime-500 text-2xl"><b>PRESS KEYS </b></h1>
+                    <h1 class="text-red-500 text-2xl mx-2"><b>B C F E B C E D</b></h1>
+                </div>
+                <div class="flex basis-5/6 md:hidden">
+                    <h1 class="text-lime-500 text-2xl"><b>CLICK THESE </b></h1>
+                    <div class="flex">
+                        <button id="b" class="text-red-500 text-2xl mx-2"><b>B</b></button>
+                        <button id="c" class="text-red-500 text-2xl mx-2"><b>C</b></button>
+                        <button id="d" class="text-red-500 text-2xl mx-2"><b>D</b></button>
+                        <button id="e" class="text-red-500 text-2xl mx-2"><b>E</b></button>
+                        <button id="f" class="text-red-500 text-2xl mx-2"><b>F</b><button>
+                    </div>
+                </div>
+                <div class="flex-auto">
+                    <h1 class="self-end text-lime-500 text-2xl"><b>&copy shivzee </b></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="hiddenBox" class="border-2 border-dashed border-green-500 text-white mt-[30vh] hidden">
+        <div class="text-lg">
+            Rotate the Screen and Refresh!
+        </div>
+
+        <div class="text-sm">
+            Not made of every mobile :fatpepe:! IDK have time kek. Still can try rotating and refreshing screen then clicking on Alphabets.
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r124/three.min.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>
